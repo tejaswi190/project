@@ -1,0 +1,8 @@
+1. Should not call the endpoint if search text in blank, but prompt the user to enter text.
+2. serach text should only be alphabets.
+3. Search text can be multiple space separated words.
+4. valid search text should fetch results on enter key press.
+5. If not results are found, then the same should be shown on the UI.
+6. If there is a data parsing error then the user should be prompted to try again.
+7. When the results are populated ans a word is clicked, it should be inserted at the point where the cursor is.
+8. The synonym lookup popup should closed once the text is inserted into the editor.
